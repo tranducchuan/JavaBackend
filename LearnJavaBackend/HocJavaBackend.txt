@@ -1,0 +1,66 @@
+﻿
+- Giới thiệu về Java
+- Định nghĩa lập trình hướng đối tượng
++ Thế nào là lập trình: Kết quả của lập trình ra một chương trình phần mềm để giải quyết 1 vấn đề thực tế nào đó
+-> Máy tính cực kỳ mạnh mẽ, cực kỳ tối ưu nên máy tính tính rất nhanh
+-> Cho dù khi các bạn có phần mềm hay không có phần mềm thì cách các bạn xử lý công việc đều như nhau.
+-> máy giúp mình xử lý bằng cách đưa quy trình ở ngoài đời vào máy
+-> Mình mô phỏng lại toàn bộ quy trình 
+
+-> Có 2 loại trình dịch:
++ Thông dịch:
+  -> viết đến đâu dịch đến đó
++ Biên dịch:
+ -> Viết xong hết rồi mới dịch, viết sai thì không dịch được
+
+-> Trong java vừa có biên dịch và thông dịch
+
+- Định nghĩa về lập trình hướng đối tượng:
+ Lập trình theo cách tạo ra đối tượng ở trong máy để mô phỏng lại các đối tượng ở ngoài đời.
+
+- Làm sao để tạo ra các đối tượng trong máy:
++ Các đối tượng có cùng vai trò, vị trí ý nghĩa trong quy trình thì sẽ có các thuộc tính giống nhau, hành động giống nhau, nhưng các thuộc tính sẽ mang giá trị khác nhau.
+=> Do vậy sẽ tạo ra 1 cái khuôn cho các đối tượng đó, từ khuôn đó sẽ tạo ra từng object
+Khuôn -> Class -> là khuôn của object
+
+- Ngôn ngữ lập trình Java:
++ Java là ngôn ngữ lập trình
++ Java kế thừa từ C
+- khi code bằng C/Cpp -> mã nguồn => Nó sẽ được biên dịch thành mã máy => EXE/SH/MAC => Code C/Cpp viết 1 nơi chạy 1 nơi
+- Java code -> biên dịch xong chạy ở WINDOW, LINUX, MACOS đều được => Viết 1 lần chạy nhiều nơi
+- java dùng server gì cũng được
+- Javacode => Biên dịch sang => ByteCode.class, nếu nhiều class đóng gói lại thành jar đã được biên dịch nhưng chưa dịch hẳn sang mã máy - biên dịch => Thông qua máy ảo Java Vitual MACHINE - máy ảo Dịch bytecode sang mã máy - Thông dịch => JRE môi trường chạy, môi trường phát triển, gồm các thông số thiết lập cấu hình => Sử dụng trên các hệ điều hành khác nhau
+- JRE
+- JDK : Có biên dịch từ java sang byte code
+
+
+// void main -> bắt đầu chạy chương trình
+/ Đặt tên viết hoa chữ đầu tiên của 1 từ
+// Class nằm trong package -> sinh ra file.java -> nằm trong package -> file.java phải trong năm trong thư mục đó, và trước class phải có package
+
+- Tên class trùng tên với File.java
+
+// Tất cả class đều có hàm main
+nhưng mà trong 1 project chỉ nên có 1 class được lựa chọn làm hàm main
+
+- Java thường sử dụng thư viện:
+
+ + Từ kho chứa thư viện-> Những thằng dùng thư viện thì mô tả thư viện thì sẽ lấy đc ví dụ lấy jdbc math
+
+
+// Sử dụng git
+- vào gitHub
+- Tạo repository
+- Vào thư mục cần đẩy lên
+- git init
+- git remote add origin
+- git add . ( thêm tất cả các file có trong thư mục)
+- git commit -m " Ghi comment " - Xác nhận 
+- git push --set-upstream origin master
+
+
+// Muốn add chung 1 repository
+Bước 1: rm -f .git/index.lock
+Bước 2: Thức hiện các bước add file
+Bước 3: commit -m " "
+Bước 4: 

@@ -1,0 +1,2 @@
+﻿Bài tập 2: Tạo class ThayGiao(ma, ten) sử dụng static, constructor để class ThayGiao chỉ tạo được duy nhất 1 object
+		Class VoThayGiao (ma, ten) chỉ tạo được 3 object không có hơn. Sử dụng thêm ( Design patterns )

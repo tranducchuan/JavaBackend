@@ -1,0 +1,6 @@
+﻿Bài tập java:
+Tạo class KhachHang(ma, ten, ngay sinh ( ngay thang , nam )
+Tạo 2 khách hàng , so sánh xem người nào có tuổi lớn hơn
+Nhập dữ liệu từ bàn phím cho 2 khách hàng so sánh và hiện thông tin ra màn hình
+Tự tìm hiểu xem nhập dữ liệu từ bàn phím trong java như thế nào
+
